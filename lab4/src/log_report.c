@@ -26,11 +26,6 @@ int main(int argc, char* argv[]) {
     // main func
     char *buff;
     size_t buffLen;
-
-    int lineNum = 0;
-    int warnNum = 0;
-    int errNum = 0;
-
     
     { // allocating buffer
         fseek(in, 0, SEEK_END);
@@ -48,9 +43,9 @@ int main(int argc, char* argv[]) {
         buff[buffLen] = '\0';
     }
 
-    errNum = substrAmount(buff, " ERROR ");
-    warnNum = substrAmount(buff, " WARN ");
-    lineNum = substrAmount(buff, "\n");
+    int errNum = substrAmount(buff, " ERROR ");
+    int warnNum = substrAmount(buff, " WARN ");
+    int lineNum = substrAmount(buff, "\n");
     
     {
         char outString[128];

@@ -1,0 +1,6 @@
+Liczba pomiarów:	5
+Suma pomiarów:		-31.200
+Minimalny pomiar:	-89.100
+Maksymalny pomiar:	50.000
+Maksymalny pomiar:	50.000
+Sredni pomiar:		-6.240

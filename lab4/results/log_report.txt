@@ -1,0 +1,4 @@
+Log file: data/app.log
+Lines: 13
+Warnings: 4
+Errors: 4

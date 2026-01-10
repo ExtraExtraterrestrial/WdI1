@@ -1,0 +1,9 @@
+  0	Hozier                         	3.0
+  1	Kenshi Yonezu                  	4.0
+  2	Chapelle Roan                  	4.5
+  3	Paris Paloma                   	5.0
+  4	Kenny Chesney                  	2.0
+
+Failed students:
+	Hozier
+	Kenny Chesney

@@ -31,7 +31,13 @@ int main() {
     }
 
 
-    printf("Grades max: %.1lf\nGrades min: %.1lf\nGrades average: %.1lf\n\n\n", getMax(grades, 5), getMin(grades, 5), getAverage(grades, 5));
+    printf(
+        "Grade stats before normalization:\n"
+        "Grades max: %.1lf\n"
+        "Grades min: %.1lf\n"
+        "Grades average: %.1lf\n\n\n", 
+        getMax(grades, 5), getMin(grades, 5), getAverage(grades, 5)
+    );
 
     for (double* grade = grades; grade < grades+5; grade++) {
         normalizeGrade(&(*grade)); // uzywam operatora &
